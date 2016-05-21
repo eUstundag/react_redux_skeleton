@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-import fooActionReducer from './reducer_foo_action'
+import HouseReducer from './reducer_house'
 const rootReducer = combineReducers({
-  fooAction: fooActionReducer
-});
+  house: HouseReducer
+})
 
-export default rootReducer;
+export default rootReducer
