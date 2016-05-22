@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
-import HouseReducer from './reducer_house'
+import fetchHouseReducer from './reducer_fetch_house'
+
 const rootReducer = combineReducers({
-  house: HouseReducer
+  fetchHouse: fetchHouseReducer
 })
 
 export default rootReducer
