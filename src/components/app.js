@@ -1,10 +1,14 @@
 import React from 'react';
 import { Component } from 'react';
-import BarComponent from '../containers/index'
+import HouseList from '../containers/house_list';
+
 export default class App extends Component {
   render() {
     return (
-      <BarComponent />
-    );
+      <div>
+        GoT API
+        <HouseList />
+      </div>
+    )
   }
 }
