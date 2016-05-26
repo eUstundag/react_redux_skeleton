@@ -9,6 +9,7 @@ class BarComponent extends Component {
     return (
         <div>
         Bar Component
+        <button onClick={this.props.fooAction()}/>
         </div>
       )
   }
