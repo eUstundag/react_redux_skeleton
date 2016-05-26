@@ -6,10 +6,11 @@ import { bindActionCreators } from 'redux'
 
 class BarComponent extends Component {
   render() {
+    console.log('this.props', this.props)
     return (
         <div>
-        Bar Component {this.props.foo}
-        <button onClick={this.props.fooAction()}/>
+        fooBar component {this.props.foo}
+        <button className='btn' onClick={this.props.fooAction}>get</button>
         </div>
       )
   }
