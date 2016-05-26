@@ -8,7 +8,7 @@ class BarComponent extends Component {
   render() {
     return (
         <div>
-        Bar Component
+        Bar Component {this.props.foo}
         <button onClick={this.props.fooAction()}/>
         </div>
       )

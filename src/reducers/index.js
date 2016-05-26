@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-
+import fooActionReducer from './reducer_foo_action'
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  fooAction: fooActionReducer
 });
 
 export default rootReducer;
